@@ -1,0 +1,8 @@
+{
+  "synchronize": false,
+  "migrations": ["dist/migrations/*{.ts,.js}"],
+  "cli": {
+    "migrationsDir": "src/migrations"
+  },
+  "migrationsTableName": "migrations"
+}
